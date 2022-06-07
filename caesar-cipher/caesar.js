@@ -23,7 +23,6 @@ const encrypt = function (plaintext, key) {
     }
   }
   return result;
-
 };
 
 module.exports = {encrypt};
