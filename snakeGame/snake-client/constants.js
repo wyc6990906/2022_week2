@@ -1,4 +1,4 @@
-const HOST = '10.0.2.15';
+const HOST = '10.0.2.15'; // 165.227.47.243 francis   10.0.2.15 local
 const PORT = 50541;
 
 const MESSAGE = {
