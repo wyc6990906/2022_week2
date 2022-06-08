@@ -4,11 +4,17 @@ const connect = function () {
     host: "10.0.2.15",
     port: 50541
   })
+  //Print a message to the screen when the connection is successfully established.
+  //seems not correct~
+  conn.on("data", (data) => {
+    console.log(`Name: DYL`)
+  })
+  conn.on("connect", () => {
+    console.log(`Successfully connected to game server...`)
+  })
+
   // interpret incoming data as text
   conn.setEncoding("utf8");
-  conn.on("data", (data) => {
-    console.log(data)
-  })
   return conn
 }
 
