@@ -1,7 +1,7 @@
 const request = require('request')
 const query = process.argv[2]
 
-request(`https://api.thecatapi11111.com/v1/breeds/search?q=${query}`, (error, response, body) => {
+request(`https://api.thecatapi.com/v1/breeds/search?q=${query}`, (error, response, body) => {
   if (!error) {
     // console.log('statusCode:', response && response.statusCode)
     // console.log(typeof body);
