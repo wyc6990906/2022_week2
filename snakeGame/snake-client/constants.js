@@ -5,8 +5,9 @@ const MESSAGE = {
   //Implement some special keys that send canned messages to the server, for everyone to see.
   1: "Say: hello everyone~",
   2: "Say: good game!!!",
-  3: "Get out off my way!!!",
-  4: "I am too good at this~~"
+  3: "OFF my way!!!",
+  4: "I am good at this~~",
+  5: 'Hello I am Dylan!!!'
 };
 
 /*
