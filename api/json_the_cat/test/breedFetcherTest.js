@@ -13,7 +13,6 @@ describe('fetchBreedDescription', () => {
       done();
     });
   });
-
   it('should returns `We cannot find any cat when search lol` !', function (done) {
     fetchBreedDescription('lol', (err, desc) => {
       // we expect no error for this scenario
